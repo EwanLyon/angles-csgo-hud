@@ -1,7 +1,6 @@
-# Basic CSGO Graphics
+# Angles CSGO Graphics
 
 ![Full HUD](./media/FullHUD.jpg)
-Basic CSGO HUD that I designed to be basic enough so that you can modify it.
 
 ## Getting Started
 
