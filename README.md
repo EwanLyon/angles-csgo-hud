@@ -23,7 +23,7 @@ A GitHub action is planned to be made. Currently you have to manually build
 
    ```sh
    cd nodecg/bundles
-   git clone https://github.com/EwanLyon/basic-csgo-graphics.git
+   git clone https://github.com/EwanLyon/angles-csgo-hud.git
    ```
 
 2. Install NPM packages
