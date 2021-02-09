@@ -1,0 +1,97 @@
+@font-face {
+	font-family: 'Josefin Sans';
+	font-weight: 400;
+	font-style: normal;
+	src: url(JosefinSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Josefin Sans';
+	font-weight: 400;
+	font-style: italic;
+	src: url(JosefinSans-Italic.ttf);
+}
+
+@font-face {
+	font-family: 'Josefin Sans';
+	font-weight: 100;
+	font-style: normal;
+	src: url(JosefinSans-Thin.ttf);
+}
+
+@font-face {
+	font-family: 'Josefin Sans';
+	font-weight: 100;
+	font-style: italic;
+	src: url(JosefinSans-ThinItalic.ttf);
+}
+
+@font-face {
+	font-family: 'Josefin Sans';
+	font-weight: 200;
+	font-style: normal;
+	src: url(JosefinSans-ExtraLight.ttf);
+}
+
+@font-face {
+	font-family: 'Josefin Sans';
+	font-weight: 200;
+	font-style: italic;
+	src: url(JosefinSans-ExtraLightItalic.ttf);
+}
+
+@font-face {
+	font-family: 'Josefin Sans';
+	font-weight: 300;
+	font-style: normal;
+	src: url(JosefinSans-Light.ttf);
+}
+
+@font-face {
+	font-family: 'Josefin Sans';
+	font-weight: 300;
+	font-style: italic;
+	src: url(JosefinSans-LightItalic.ttf);
+}
+
+@font-face {
+	font-family: 'Josefin Sans';
+	font-weight: 500;
+	font-style: normal;
+	src: url(JosefinSans-Medium.ttf);
+}
+
+@font-face {
+	font-family: 'Josefin Sans';
+	font-weight: 500;
+	font-style: italic;
+	src: url(JosefinSans-MediumItalic.ttf);
+}
+
+@font-face {
+	font-family: 'Josefin Sans';
+	font-weight: 600;
+	font-style: normal;
+	src: url(JosefinSans-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: 'Josefin Sans';
+	font-weight: 600;
+	font-style: italic;
+	src: url(JosefinSans-SemiBoldItalic.ttf);
+}
+
+@font-face {
+	font-family: 'Josefin Sans';
+	font-weight: 700;
+	font-style: normal;
+	src: url(JosefinSans-Bold.ttf);
+}
+
+@font-face {
+	font-family: 'Josefin Sans';
+	font-weight: 700;
+	font-style: italic;
+	src: url(JosefinSans-BoldItalic.ttf);
+}
