@@ -89,8 +89,7 @@ export const ScoreBug: React.FunctionComponent<Props> = (props: Props) => {
 	const bombElement = useRef<HTMLDivElement>(null);
 	const [currentRound, setCurrentRound] = useState(0);
 
-	console.log(round);
-	const roundWinner = round.win_team || '';
+	const roundWinner = round?.win_team || '';
 
 	const ct = !currentTeamSide(currentRound);
 
@@ -138,16 +137,14 @@ export const ScoreBug: React.FunctionComponent<Props> = (props: Props) => {
 
 	useEffect(() => {
 		// No bomb in warmup
-		if (bomb === undefined) {
-			return;
-		}
+		if (bomb === undefined) return;
 
 		if (bomb.state === 'planting') {
 			bombAnimation('ShowBomb');
 		} else if (bomb.state === 'exploded' || bomb.state === 'defused') {
 			bombAnimation('HideBomb');
 		}
-	}, [bomb.state]);
+	}, [bomb]);
 
 	// Create timeline
 	useEffect(() => {
@@ -176,7 +173,7 @@ export const ScoreBug: React.FunctionComponent<Props> = (props: Props) => {
 
 	let hasKit = false;
 	let playerName = '';
-	if (bomb.player) {
+	if (bomb?.player) {
 		hasKit = Boolean(gameAllPlayers[bomb.player]?.state.defusekit);
 		playerName = gameAllPlayers[bomb.player]?.name;
 	}
